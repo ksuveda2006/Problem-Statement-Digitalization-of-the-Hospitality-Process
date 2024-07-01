@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Allocation System</title>
+</head>
+<body>
+    <h1>Room Allocation System</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label for="group_file">Group CSV File:</label>
+        <input type="file" id="group_file" name="group_file" accept=".csv" required><br><br>
+        
+        <label for="hostel_file">Hostel CSV File:</label>
+        <input type="file" id="hostel_file" name="hostel_file" accept=".csv" required><br><br>
+        
+        <input type="submit" value="Allocate Rooms">
+    </form>
+</body>
+</html>
